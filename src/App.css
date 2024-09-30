@@ -1,0 +1,161 @@
+/* App.css */
+
+/* Header */
+.header {
+  background-color: rgb(10, 11, 3);
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  margin-left: 15cm;
+}
+
+.header .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header .nav ul li:last-child {
+  margin-right: 0;
+}
+
+.header .nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header .nav ul li a:hover {
+  text-decoration: underline;
+}
+/* Home.css */
+
+.home {
+  background-color: #F0F0F0;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home h2 {
+  color: #333333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  color: #666666;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.action-button {
+  background-color: #EA738DFF;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #FF4081FF;
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 40px ;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-content {
+  display: flex;
+}
+
+.footer .footer-content .contact-info,
+.footer .footer-content .social-media {
+  margin-right: 40px;
+}
+
+.footer h3 {
+  font-size: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .copyright {
+  font-size: 14px;
+}
+
+
+/* Apply similar styles for other components */
+/* Campaigns.css */
+
+.campaigns {
+  background-color: #F0F0F0;
+  padding: 40px 0;
+}
+
+.campaigns .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.campaigns h2 {
+  color: #333333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.campaign {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
