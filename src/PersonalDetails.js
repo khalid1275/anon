@@ -72,7 +72,7 @@ function PersonalDetails() {
 
 			{/* Display Submitted Data */}
 			{title && gender && maritalStatus && (
-				<p> Your data has been successfully sumbited
+				<p>
 				</p>
 			)}
 		</div>
